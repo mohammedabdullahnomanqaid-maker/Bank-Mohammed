@@ -1,0 +1,16 @@
+C:\Users\pc shamel\Source\Repos\clsUserSession\bin\Debug\clsUserSession.dll
+C:\Users\pc shamel\Source\Repos\clsUserSession\bin\Debug\clsUserSession.pdb
+C:\Users\pc shamel\Source\Repos\clsUserSession\obj\Debug\clsUserSession.csproj.CoreCompileInputs.cache
+C:\Users\pc shamel\Source\Repos\clsUserSession\obj\Debug\clsUserSession.dll
+C:\Users\pc shamel\Source\Repos\clsUserSession\obj\Debug\clsUserSession.pdb
+C:\Users\pc shamel\MBank-v3.1.0\clsUserSession\bin\Debug\clsUserSession.dll
+C:\Users\pc shamel\MBank-v3.1.0\clsUserSession\bin\Debug\clsUserSession.pdb
+C:\Users\pc shamel\MBank-v3.1.0\clsUserSession\obj\Debug\clsUserSession.csproj.CoreCompileInputs.cache
+C:\Users\pc shamel\MBank-v3.1.0\clsUserSession\obj\Debug\clsUserSession.dll
+C:\Users\pc shamel\MBank-v3.1.0\clsUserSession\obj\Debug\clsUserSession.pdb
+C:\Users\pc shamel\Final-MBank\clsUserSession\bin\Debug\clsUserSession.dll
+C:\Users\pc shamel\Final-MBank\clsUserSession\bin\Debug\clsUserSession.pdb
+C:\Users\pc shamel\Final-MBank\clsUserSession\obj\Debug\clsUserSession.csproj.AssemblyReference.cache
+C:\Users\pc shamel\Final-MBank\clsUserSession\obj\Debug\clsUserSession.csproj.CoreCompileInputs.cache
+C:\Users\pc shamel\Final-MBank\clsUserSession\obj\Debug\clsUserSession.dll
+C:\Users\pc shamel\Final-MBank\clsUserSession\obj\Debug\clsUserSession.pdb
