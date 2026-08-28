@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7CA0076-43C1-4F6F-B9EC-19EC5FBCAF1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_Bank_C</RootNamespace>
+    <AssemblyName>Project_Bank_C</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IcoBank.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clsUserSession, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\clsUserSession\bin\Debug\clsUserSession.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddCurrency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddCurrency.Designer.cs">
+      <DependentUpon>FrmAddCurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBankSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBankSystem.Designer.cs">
+      <DependentUpon>FrmBankSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCurrencyExchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurrencyExchange.Designer.cs">
+      <DependentUpon>frmCurrencyExchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInterFace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInterFace.Designer.cs">
+      <DependentUpon>FrmInterFace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManageUser.Designer.cs">
+      <DependentUpon>FrmManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransaction.Designer.cs">
+      <DependentUpon>FrmTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddCurrency.resx">
+      <DependentUpon>FrmAddCurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBankSystem.resx">
+      <DependentUpon>FrmBankSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurrencyExchange.resx">
+      <DependentUpon>frmCurrencyExchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInterFace.resx">
+      <DependentUpon>FrmInterFace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManageUser.resx">
+      <DependentUpon>FrmManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransaction.resx">
+      <DependentUpon>FrmTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-icon-white-background-isolated-simple-vector_833641-1181.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-icon-white-background-isolated-simple-vector_833641-11810001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye_slash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormalPerson.webp" />
+    <None Include="Resources\ImageBank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myFlag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\femal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change-user-female.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deposite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WithDraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transfer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PermissionIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FlagNavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaleNavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BankIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LockIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SearchIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\addCurrency2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CurrencyExchange.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AddCurrency1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoutNavy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1775247962656.ico" />
+    <Content Include="Database\MBankDB.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IcoBank.ico" />
+    <Content Include="images %285%29.ico" />
+    <Content Include="Images\Countries\Afghanistan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Albania.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Algeria.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Argentina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Australia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Austria.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Barhain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Brazil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Canada.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\China.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\comoros.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Djibouti.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Egypt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\France.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Germany.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\India.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Iraq.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Japan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Jordan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Kuwait.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Lebanon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Libya.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Malaysia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Mauritania.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Mexico.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Morocco.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Netherlands.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\New_Zealand.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Norway.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Oman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Pakistan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Palestine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Philippines.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Poland.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Qatar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Russia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Saudi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Singapore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Somalia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\South_Africa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\south_Korea.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sudan.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Sweden.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Switzerland.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Syria.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Thailand.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Tunisia.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Turkey.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Ukraine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\UnitatedArabEmarat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\United_Kingdom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\United_States.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Vietnam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Yemen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\Zimbabwe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MBankico.ico" />
+    <None Include="Resources\DeletePin.jpg" />
+    <None Include="Resources\DeleteCurrency.png" />
+    <None Include="Resources\eye-icon-white-background-isolated-simple-vector_833641-1181 - Copy.jpg" />
+    <None Include="Resources\Deposite - Copy.png" />
+    <None Include="Resources\deleteIcon - Copy.png" />
+    <None Include="Resources\DefaultIcon - Copy.jpg" />
+    <None Include="Resources\CurrencyExchange - Copy.jpg" />
+    <None Include="Resources\change-user-female - Copy.jpg" />
+    <None Include="Resources\BankImage - Copy.png" />
+    <None Include="Resources\BankIcon - Copy.jpg" />
+    <None Include="Resources\addIcon - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Resource1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\clsBussinseLibrary\clsBussinseLibrary.csproj">
+      <Project>{1d62008e-8ee1-426b-b3f3-c3188ccb941a}</Project>
+      <Name>clsBussinseLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

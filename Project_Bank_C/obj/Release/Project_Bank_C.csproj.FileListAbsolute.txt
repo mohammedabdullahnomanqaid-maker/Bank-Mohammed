@@ -1,0 +1,17 @@
+C:\Users\pc shamel\source\repos\Project_Bank_C\bin\Release\Project_Bank_C.exe.config
+C:\Users\pc shamel\source\repos\Project_Bank_C\bin\Release\Project_Bank_C.exe
+C:\Users\pc shamel\source\repos\Project_Bank_C\bin\Release\Project_Bank_C.pdb
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmLogin.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmAddCurrency.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmBankSystem.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.frmCurrencyExchange.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmInterFace.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.frmLoginRegister.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmManageUser.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.FrmTransaction.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.Properties.Resources.resources
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.csproj.GenerateResource.cache
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.csproj.CoreCompileInputs.cache
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.exe
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.pdb
+C:\Users\pc shamel\source\repos\Project_Bank_C\obj\Release\Project_Bank_C.csproj.AssemblyReference.cache

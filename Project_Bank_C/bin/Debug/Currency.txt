@@ -1,0 +1,57 @@
+Yemen#YER#Yemeni Rial#552#530#2026-03-25#
+Saudi Arabia#SAR#Saudi Riyal#3.76#3.74#2026-03-25#
+Oman#OMR#Oman Rial#20#17#2026-03-27#
+United Arab Emirates#AED#UAE Dirham#3.746460#3.599540#2026-03-25#
+Qatar#QAR#Qatari Rial#3.7#3.5#25/03/2026#
+Bahrain#BHD#Bahraini Dinar#0.384540#0.369460#2026-03-25#
+Kuwait#KWD#Kuwaiti Dinar#0.313140#0.300860#2026-03-25#
+Iraq#IQD#Iraqi Dinar#1479.000000#1421.000000#2026-03-25#
+Jordan#JOD#Jordanian Dinar#0.722160#0.693840#2026-03-25#
+Egypt#EGP#Egyptian Pound#25.083839#24.100159#2026-03-25#
+Sudan#SDG#Sudanese Pound#589.560000#566.440000#2026-03-25#
+Somalia#SOS#Somali Shilling#24786.000000#23814.000000#2026-03-25#
+Djibouti#DJF#Djibouti Franc#180.540000#173.460000#2026-03-25#
+Comoros#KMF#Comoros Franc#470.783042#452.320962#2026-03-25#
+Lebanon#LBP#Lebanese Pound#31212.000000#29988.000000#2026-03-25#
+Syria#SYP#Syrian Pound#3060.000000#2940.000000#2026-03-25#
+Palestine#ILS#Palestinian usage of Shekel#3.456780#3.321220#2026-03-25#
+Libya#LYD#Libyan Dinar#4.943940#4.750060#2026-03-25#
+Tunisia#TND#Tunisian Dinar#3.202800#3.077200#2026-03-25#
+Algeria#DZD#Algerian Dinar#139.786925#134.305085#2026-03-25#
+Morocco#MAD#Morocco Dirham#10.688580#10.269420#2026-03-25#
+Mauritania#MRU#Mauritania Ouguiya#38.433600#36.926400#2026-03-25#
+United States of America#USD#US Dollar#1#1#2026-03-25#
+Afghanistan#AFN#Afghanistan Afghani#89.229603#85.730403#2026-03-25#
+Albania#ALL#Albania Lek(e)#111.190202#106.829802#2026-03-25#
+Argentina#ARS#Argentine Peso#175.179895#168.310095#2026-03-25#
+Australia#AUD#Australian Dollar#1.480020#1.421980#2026-03-25#
+Austria#EUR#Euro#0.956760#0.919240#2026-03-25#
+Brazil#BRL#Brazilian Real#5.366220#5.155780#2026-03-25#
+Canada#CAD#Canadian Dollar#1.380060#1.325940#2026-03-25#
+China#CNY#Chinese Renminbi#7.078800#6.801200#2026-03-25#
+France#EUR#Euro#0.918000#0.882000#2026-03-25#
+Germany#EUR#Euro#0.956760#0.919240#2026-03-25#
+India#INR#Indian Rupee#84.456003#81.144003#2026-03-25#
+Japan#JPY#Japanese Yen#137.567395#132.172595#2026-03-25#
+Malaysia#MYR#Malaysia Ringgit#4.514520#4.337480#2026-03-25#
+Mexico#MXN#Mexican Peso#20.063400#19.276600#2026-03-25#
+Netherlands#EUR#Euro#0.956760#0.919240#2026-03-25#
+New Zealand#NZD#New Zealand Dollar#1.565700#1.504300#2026-03-25#
+Norway#NOK#Norwegian Krone#9.955200#9.564800#2026-03-25#
+Pakistan#PKR#Pakistani Rupee#229.245000#220.255000#2026-03-25#
+Philippines#PHP#Philippine Peso#57.007799#54.772199#2026-03-25#
+Poland#PLN#Poland Zloty#4.490040#4.313960#2026-03-25#
+Russia#RUB#Russian Rouble#64.398722#61.873282#2026-03-25#
+Singapore#SGD#Singapore Dollar#1.370880#1.317120#2026-03-25#
+South Africa#ZAR#South Africa Rand#17.698020#17.003980#2026-03-25#
+South Korea#KRW#Korean Won#1328.784580#1276.675380#2026-03-25#
+Sweden#SEK#Swedish Krona#10.380540#9.973460#2026-03-25#
+Switzerland#CHF#Swiss Franc#0.942480#0.905520#2026-03-25#
+Thailand#THB#Thai Baht#35.251201#33.868801#2026-03-25#
+Turkey#TRY#Turkish Lira#19.005659#18.260339#2026-03-25#
+UK#GBP#British Pound#0.820080#0.787920#2026-03-25#
+Ukraine#UAH#Ukraine Hryvnia#37.740000#36.260000#2026-03-25#
+Vietnam#VND#Vietnam Dong#24196.480000#23051.520000#2026-03-25#
+Zimbabwe#ZWL#Zimbabwe Dollar#658.322281#632.505721#2026-03-25#
+koko#kok#kokoM#34#30#2026-03-27
+koko#ko#kok#7#8#2026-04-30
