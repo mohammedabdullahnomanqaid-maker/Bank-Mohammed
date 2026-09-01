@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏦 MBank — Banking Management System
+# 🏦 MBank—v3.1.0
 
 ### Desktop Banking Simulation Application
 
@@ -849,7 +849,7 @@ You are free to use, modify, and distribute the project, provided that proper co
 
 <div align="center">
 
-### Mohammed Abdullah Noman
+### Mohammed Abdullah Noman Qaid Mohammed 
 
 **Computer Science Student — Taiz University**
 
